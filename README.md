@@ -12,7 +12,7 @@ Getting Started
   
 2. Run LCP calculation R script in the R folder to reproduce the Least Cost Paths shown in Figure 5. 
 
-3. 
+3. Direction-Dependent Visibility TBA
 
 File Structure
 ---------------
