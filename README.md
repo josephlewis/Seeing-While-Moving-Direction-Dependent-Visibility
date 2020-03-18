@@ -1,4 +1,4 @@
-# SEEING WHILE MOVING: DIRECTION-DEPENDENT VISIBILITY OF BRONZE AGE MONUMENTS ALONG A PREHISTORIC MOUNTAIN TRACK IN CUMBRIA, ENGLAND
+# Seeing while moving: Direction-Dependent Visibility of Bronze Age Monuments Along a Prehistoric Mountain Track in Cumbria, England
 
 This repository contains all the data and scripts required to fully reproduce all analyses presented in the paper "Seeing while moving: Direction-Dependent Visibility of Bronze Age Monuments Along a Prehistoric Mountain Track in Cumbria, England" authored by Lewis, J. 
 
@@ -12,7 +12,7 @@ Getting Started
   
 2. Run LCP calculation R script in the R folder to reproduce the Least Cost Paths shown in Figure 5. 
 
-3. Direction-Dependent Visibility TBA
+3. Direction-Dependent Visibility TBA.
 
 File Structure
 ---------------
