@@ -7,14 +7,15 @@ Getting Started
 ---------------
 
 1. Run FETE calculation R script in the R folder to reproduce the Least Cost Path Density and Least Cost Path Kernel Density shown in Figure 4.
-  * Caution: The From Everywhere to Everywhere calculation calculates 227,052 Least Cost Paths and takes approximately **~3 days to run.** 
-  * Note: The Least Cost Path Density and Least Cost Path Kernel Density results are available in the Outputs folder. 
+    + Caution: The From Everywhere to Everywhere calculation calculates 227,052 Least Cost Paths and takes approximately **~3 days to run.** 
+    + Note: The Least Cost Path Density and Least Cost Path Kernel Density results are available in the Outputs folder. 
   
 2. Run LCP calculation R script in the R folder to reproduce the Least Cost Paths shown in Figure 5. 
 
 File Structure
 ---------------
 
+```
   .
   ├── Data
   │   └── OD
@@ -54,5 +55,5 @@ File Structure
   │   └── FETE calculation.R
   │   └── LCP calculation.R
   ├── README.md
-
+```
 
