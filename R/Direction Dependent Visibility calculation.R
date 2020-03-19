@@ -45,8 +45,7 @@ elev_osgb <- raster::crop(elev_osgb, as(extent(333289, 358153, 502039, 531164), 
 #### SET-UP OF GRASS IN ORDER TO CALCULATE VISIBILITY ####
 
 # find location where GRASS is installed
-#myGRASS = findGRASS()
-myGRASS <- "D:/GRASS GIS 7.6.0"
+myGRASS = findGRASS()
 
 # initialise GRASS
 #initGRASS(gisBase = myGRASS$instDir,
