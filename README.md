@@ -13,9 +13,16 @@ Getting Started
 2. Run the LCP calculation R script in the R folder to reproduce the Least Cost Paths shown in Figure 5. 
     + Note: The South to North and North to South Least Cost Path results are available in the Outputs folder. 
 
-3. Run the Direction Dependent Visibility R script in the R folder to reproduce  the visibility results shown in Figure 6.
+3. Run the Direction Dependent Visibility calculation R script in the R folder to reproduce  the visibility results shown in Figure 6.
     + Note: The South to North and North to South Visibility results are available in the Outputs folder. 
+    + The Direction Dependent Visibility function is in the Direction Dependent Visibility R script should you wish to use the function outside of this project. Note that you will need to set up GRASS in order for the function to work (see lines 45 to 55 of Direction Dependent Visibility calculation R script).
     
+How Direction-Dependent Visibity is calculated
+---------------
+
+TBC
+
+
 File Structure
 ---------------
 
@@ -46,6 +53,9 @@ File Structure
   │   └── density rasters
   │       ├── lcp_network_density.tif
   │       ├── lcp_network_kernel_density.tif
+  │   └── visibility rasters
+  │       ├── south_to_north_visibility.tif
+  │       ├── north_to_south_visibility.tif
   │   └── least cost paths
   │       ├── north_to_south.dbf
   │       ├── north_to_south.prj
@@ -58,8 +68,10 @@ File Structure
   ├── R
   │   └── FETE calculation.R
   │   └── LCP calculation.R
-  │   └── Direction Dependent Visibility.R
+  │   └── Direction Dependent Visibility calculation.R
+  │   └── Direction_Dependent_Visibility.R  
   ├── README.md
   ├── Seeing-While-Moving-Direction-Dependent-Visibility.Rproj
+  ├── Licenses.md
 ```
 
