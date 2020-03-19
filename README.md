@@ -85,19 +85,20 @@ Running under: Windows >= 8 x64 (build 9200)
 Matrix products: default
 
 locale:
-[1] LC_COLLATE=English_United Kingdom.1252  LC_CTYPE=English_United Kingdom.1252    LC_MONETARY=English_United Kingdom.1252
-[4] LC_NUMERIC=C                            LC_TIME=English_United Kingdom.1252    
+[1] LC_COLLATE=English_United Kingdom.1252  LC_CTYPE=English_United Kingdom.1252   
+[3] LC_MONETARY=English_United Kingdom.1252 LC_NUMERIC=C                           
+[5] LC_TIME=English_United Kingdom.1252    
 
 attached base packages:
 [1] stats     graphics  grDevices utils     datasets  methods   base     
 
 other attached packages:
- [1] rgrass7_0.1-12      XML_3.98-1.9        leastcostpath_1.2.1 gdistance_1.2-2     Matrix_1.2-10       igraph_1.2.4.1      rgeos_0.4-3        
- [8] rgdal_1.4-3         raster_2.8-19       sp_1.3-1           
+ [1] rgrass7_0.1-12      XML_3.98-1.9        leastcostpath_1.2.1 gdistance_1.2-2     Matrix_1.2-10      
+ [6] igraph_1.2.4.1      rgeos_0.4-3         rgdal_1.4-3         raster_2.8-19       sp_1.3-1           
 
 loaded via a namespace (and not attached):
- [1] Rcpp_1.0.3       lattice_0.20-35  codetools_0.2-15 grid_3.4.1       magrittr_1.5     pbapply_1.4-2    tools_3.4.1      parallel_3.4.1  
- [9] compiler_3.4.1   pkgconfig_2.0.2 
+ [1] Rcpp_1.0.3       lattice_0.20-35  codetools_0.2-15 grid_3.4.1       magrittr_1.5     pbapply_1.4-2   
+ [7] tools_3.4.1      parallel_3.4.1   compiler_3.4.1   pkgconfig_2.0.2 
 ```
 
 License
