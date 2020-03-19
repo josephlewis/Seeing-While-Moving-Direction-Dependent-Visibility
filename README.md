@@ -21,10 +21,10 @@ Getting Started
 How Direction-Dependent Visibity is calculated
 ---------------
 
-1. Calculate visibility in all directions from location along route
-2. Calculate angle between current location and location further along route. This represents the direction of movement when moving along the route
-3. Identify potential visibility field based on direction of movement (62 degrees either side)
-4. Clip visibility in all directions to potential visibility field when taking into account direction of movement
+1. Calculate visibility in all directions from a location along the route.
+2. Calculate angle between current location and location further along route. This represents the direction of movement when moving along the route.
+3. Identify potential visibility field based on direction of movement (62 degrees either side).
+4. Clip visibility in all directions to potential visibility field when taking into account direction of movement.
 
 ![Direction Dependent Visibility](https://i.imgur.com/r5grlGg.gif)
 
