@@ -65,8 +65,8 @@ lcps <- leastcostpath::create_lcp(final_cs, pts[1,], pts[2,], directional = FALS
 lcps[[1]]$id <- 1
 lcps[[2]]$id <- 1
 
-rgdal::writeOGR(lcps[[1]], "./Outputs/least cost paths", "south_to_north", driver = "ESRI Shapefile", overwrite_layer = TRUE)
-rgdal::writeOGR(lcps[[2]], "./Outputs/least cost paths", "north_to_south", driver = "ESRI Shapefile", overwrite_layer = TRUE)
+#rgdal::writeOGR(lcps[[1]], "./Outputs/least cost paths", "south_to_north", driver = "ESRI Shapefile", overwrite_layer = TRUE)
+#rgdal::writeOGR(lcps[[2]], "./Outputs/least cost paths", "north_to_south", driver = "ESRI Shapefile", overwrite_layer = TRUE)
 
 
 

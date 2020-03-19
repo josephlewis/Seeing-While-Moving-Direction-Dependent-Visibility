@@ -70,7 +70,7 @@ lcp_network <- leastcostpath::create_FETE_lcps(cost_surface = final_cs, location
 
 lcp_network_density <- leastcostpath::create_lcp_density(lcps = lcp_network, raster = elev_osgb, rescale = TRUE)
 
-writeRaster(lcp_network_density, "./Outputs/density rasters/lcp_network_density.tif", overwrite = TRUE)
+#writeRaster(lcp_network_density, "./Outputs/density rasters/lcp_network_density.tif", overwrite = TRUE)
 
 #### COMPUTE LEAST COST PATH KERNEL DENSITY ####
 
@@ -80,4 +80,4 @@ fwModel[fwModel>0] <- 1
 
 lcp_network_kd <- raster::focal(lcp_network_density, w=fwModel ,fun=sum , na.rm=TRUE)
 
-raster::writeRaster(lcp_network_kd, "./Outputs/density rasters/lcp_network_kernel_density.tif")
+#raster::writeRaster(lcp_network_kd, "./Outputs/density rasters/lcp_network_kernel_density.tif")
