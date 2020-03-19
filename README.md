@@ -26,7 +26,7 @@ How Direction-Dependent Visibity is calculated
 3. Identify potential visibility field based on direction of movement (62 degrees either side)
 4. Clip visibility in all directions to potential visibility field when taking into account direction of movement
 
-![Direction Dependent Visibility](https://i.imgur.com/SudJqKw.gif)
+![Direction Dependent Visibility](i.imgur.com/SudJqKw.gif)
 
 File Structure
 ---------------
