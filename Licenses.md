@@ -6,14 +6,16 @@ This repository contains all the data and scripts required to fully reproduce al
 Getting Started
 ---------------
 
-1. Run FETE calculation R script in the R folder to reproduce the Least Cost Path Density and Least Cost Path Kernel Density shown in Figure 4.
-    + **Caution: The From Everywhere to Everywhere calculation calculates 227,052 Least Cost Paths and takes approximately ~3 days to run.** 
+1. Run the FETE calculation R script in the R folder to reproduce the Least Cost Path Density and Least Cost Path Kernel Density shown in Figure 4.
+    + **Caution: The From Everywhere to Everywhere calculation calculates 227,052 Least Cost Paths and took approximately ~3 days to run on Intel Core i5 laptop with 8GB RAM** 
     + Note: The Least Cost Path Density and Least Cost Path Kernel Density results are available in the Outputs folder. 
   
-2. Run LCP calculation R script in the R folder to reproduce the Least Cost Paths shown in Figure 5. 
+2. Run the LCP calculation R script in the R folder to reproduce the Least Cost Paths shown in Figure 5. 
+    + Note: The South to North and North to South Least Cost Path results are available in the Outputs folder. 
 
-3. Direction-Dependent Visibility TBA.
-
+3. Run the Direction Dependent Visibility R script in the R folder to reproduce  the visibility results shown in Figure 6.
+    + Note: The South to North and North to South Visibility results are available in the Outputs folder. 
+    
 File Structure
 ---------------
 
@@ -56,6 +58,7 @@ File Structure
   ├── R
   │   └── FETE calculation.R
   │   └── LCP calculation.R
+  │   └── Direction Dependent Visibility.R
   ├── README.md
   ├── Seeing-While-Moving-Direction-Dependent-Visibility.Rproj
 ```
