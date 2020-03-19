@@ -92,19 +92,21 @@ attached base packages:
 [1] stats     graphics  grDevices utils     datasets  methods   base     
 
 other attached packages:
- [1] link2GI_0.3-5       rgrass7_0.1-12      XML_3.98-1.9        leastcostpath_1.2.1 gdistance_1.2-2     Matrix_1.2-10       igraph_1.2.4.1     
- [8] rgeos_0.4-3         rgdal_1.4-3         raster_2.8-19       sp_1.3-1           
+ [1] link2GI_0.3-5       rgrass7_0.1-12      XML_3.98-1.9        leastcostpath_1.2.1 gdistance_1.2-2     Matrix_1.2-10      
+ [7] igraph_1.2.4.1      rgeos_0.4-3         rgdal_1.4-3         raster_2.8-19       sp_1.3-1           
 
 loaded via a namespace (and not attached):
- [1] Rcpp_1.0.3         lattice_0.20-35    FNN_1.1            class_7.3-14       prettyunits_1.0.2  ps_1.2.1           zoo_1.8-1         
- [8] assertthat_0.2.1   gstat_1.1-5        rprojroot_1.2      digest_0.6.16      foreach_1.4.4      R6_2.4.0           plyr_1.8.4        
-[15] backports_1.1.5    e1071_1.7-1        rlang_0.4.0        rstudioapi_0.7     callr_3.1.0        R.utils_2.6.0      R.oo_1.21.0       
-[22] desc_1.2.0         devtools_2.0.2     stringr_1.2.0      foreign_0.8-69     compiler_3.4.1     shapefiles_0.7     pkgconfig_2.0.2   
-[29] pkgbuild_1.0.2     roxygen2_6.1.1     intervals_0.15.1   codetools_0.2-15   spacetime_1.2-0    crayon_1.3.4       withr_2.1.2       
-[36] sf_0.7-4           R.methodsS3_1.7.1  commonmark_1.7     grid_3.4.1         RSAGA_1.3.0        DBI_1.0.0          magrittr_1.5      
-[43] units_0.6-2        KernSmooth_2.23-15 cli_1.0.0          stringi_1.1.5      pbapply_1.4-2      fs_1.2.7           remotes_2.0.2     
-[50] testthat_2.0.0     xml2_1.1.1         xts_0.10-0         iterators_1.0.8    tools_3.4.1        gdalUtils_2.0.1.7  glue_1.3.1        
-[57] processx_3.2.1     pkgload_1.0.2      parallel_3.4.1     sessioninfo_1.1.1  classInt_0.4-2     memoise_1.1.0      usethis_1.4.0 
+ [1] Rcpp_1.0.3         lattice_0.20-35    FNN_1.1            class_7.3-14       prettyunits_1.0.2  ps_1.2.1          
+ [7] zoo_1.8-1          assertthat_0.2.1   gstat_1.1-5        rprojroot_1.2      digest_0.6.16      foreach_1.4.4     
+[13] R6_2.4.0           plyr_1.8.4         backports_1.1.5    e1071_1.7-1        rlang_0.4.0        rstudioapi_0.7    
+[19] callr_3.1.0        R.utils_2.6.0      R.oo_1.21.0        desc_1.2.0         devtools_2.0.2     stringr_1.2.0     
+[25] foreign_0.8-69     compiler_3.4.1     shapefiles_0.7     pkgconfig_2.0.2    pkgbuild_1.0.2     roxygen2_6.1.1    
+[31] intervals_0.15.1   codetools_0.2-15   spacetime_1.2-0    crayon_1.3.4       withr_2.1.2        sf_0.7-4          
+[37] R.methodsS3_1.7.1  commonmark_1.7     grid_3.4.1         RSAGA_1.3.0        DBI_1.0.0          magrittr_1.5      
+[43] units_0.6-2        KernSmooth_2.23-15 cli_1.0.0          stringi_1.1.5      pbapply_1.4-2      fs_1.2.7          
+[49] remotes_2.0.2      testthat_2.0.0     xml2_1.1.1         xts_0.10-0         iterators_1.0.8    tools_3.4.1       
+[55] gdalUtils_2.0.1.7  glue_1.3.1         processx_3.2.1     pkgload_1.0.2      parallel_3.4.1     sessioninfo_1.1.1 
+[61] classInt_0.4-2     memoise_1.1.0      usethis_1.4.0 
 ```
 
 License
