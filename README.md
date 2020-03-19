@@ -21,8 +21,6 @@ Getting Started
 How Direction-Dependent Visibity is calculated
 ---------------
 
-TBC
-
 
 File Structure
 ---------------
@@ -75,6 +73,11 @@ File Structure
   ├── Seeing-While-Moving-Direction-Dependent-Visibility.Rproj
   ├── Licenses.md
 ```
+
+```
+sessionInfo()
+```
+
 
 License
 ---------------
