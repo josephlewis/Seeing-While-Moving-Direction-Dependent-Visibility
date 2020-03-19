@@ -57,5 +57,6 @@ File Structure
   │   └── FETE calculation.R
   │   └── LCP calculation.R
   ├── README.md
+  ├── Seeing-While-Moving-Direction-Dependent-Visibility.Rproj
 ```
 
