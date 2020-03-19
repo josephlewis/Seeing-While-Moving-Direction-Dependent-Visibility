@@ -58,19 +58,9 @@ initGRASS(gisBase = myGRASS,
 
 south_to_north_visibility <- DDV(route = lcp, dem = elev_osgb, coordinate_system = osgb, max_dist = 1000, horizontal_angle = 62, locs_futher_along_route = 1, observer_elev = 1.65, reverse = FALSE, binary = TRUE)
 
-plot(south_to_north_visibility)
-
-writeRaster(south_to_north_visibility, "./Outputs/visibility rasters/south_to_north_visibility.tif", overwrite = TRUE)
+#writeRaster(south_to_north_visibility, "./Outputs/visibility rasters/south_to_north_visibility.tif", overwrite = TRUE)
 
 north_to_south_visibility <- DDV(route = lcp, dem = elev_osgb, coordinate_system = osgb, max_dist = 1000, horizontal_angle = 62, locs_futher_along_route = 1, observer_elev = 1.65, reverse = TRUE, binary = TRUE)
 
-plot(north_to_south_visibility)
+#writeRaster(north_to_south_visibility, "./Outputs/visibility rasters/north_to_south_visibility.tif", overwrite = TRUE)
 
-writeRaster(north_to_south_visibility, "./Outputs/visibility rasters/north_to_south_visibility.tif", overwrite = TRUE)
-
-
-
-
-
-
-#raster::writeRaster(lcp_network_kd, "./Outputs/density rasters/lcp_network_kernel_density.tif")
