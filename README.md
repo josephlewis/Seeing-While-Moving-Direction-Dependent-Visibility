@@ -6,7 +6,7 @@ This repository contains all the data and scripts required to fully reproduce al
 Getting Started
 ---------------
 
-1. Run Seeing-While-Moving-Direction-Dependent-Visibility.Rproj to ensure relative paths work.
+1. Open project using Seeing-While-Moving-Direction-Dependent-Visibility.Rproj to ensure relative paths work.
 2. Run the FETE calculation R script in the R folder to reproduce the Least Cost Path Density and Least Cost Path Kernel Density shown in Figure 4.
     + **Caution: The From Everywhere to Everywhere calculation calculates 227,052 Least Cost Paths and took approximately ~3 days to run on Intel Core i5 laptop with 8GB RAM** 
     + Note: The Least Cost Path Density and Least Cost Path Kernel Density results are available in the Outputs folder. 
