@@ -15,8 +15,6 @@ osgb <- "+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.9996012717 +x_0=400000 +y_0=-10000
 
 pts <- rgdal::readOGR("./Data/Regular Points/regular_locs.shp")
 
-pts <- pts[unique(round(runif(10, 1, 477))),]
-
 #### DIGITAL ELEVATION MODEL PREPROCESSING ####
 
 elev_files <- base::list.files(path = "./Data/SRTM/", pattern = ".hgt$", full.names = TRUE)
