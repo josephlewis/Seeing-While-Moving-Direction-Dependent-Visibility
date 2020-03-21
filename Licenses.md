@@ -59,4 +59,12 @@ Information Science, 21:9, 983-1008.
 
 http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/
 
+**Archaeology Data Service**
 
+ Creative Commons License Attribution 4.0 International Licence
+
+https://creativecommons.org/licenses/by/4.0/
+
+People Involved:
+[Publisher] Lake District National Park Authority
+[Publisher] Historic England
