@@ -65,7 +65,8 @@ http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/
 
 https://creativecommons.org/licenses/by/4.0/
 
-People Involved:
+<i>People Involved:</i>
+
 [Publisher] Lake District National Park Authority
 
 [Publisher] Historic England
