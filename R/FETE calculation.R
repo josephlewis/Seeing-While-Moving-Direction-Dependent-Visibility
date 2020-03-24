@@ -44,6 +44,8 @@ waterbodies <- rgdal::readOGR("./Data/Waterbodies/WFD_Lake_Water_Bodies_Cycle_2.
 # crop Waterbodies shapefile to elev_osgb extent
 waterbodies <- raster::crop(waterbodies, elev_osgb)
 
+waterbodies <- rgeos::gBuffer(spgeom = waterbodies, width = max(res(elev_osgb)) * 2)
+
 # create raster based on Waterbodies shapefile
 waterbodies <- raster::mask(elev_osgb, waterbodies)
 
