@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?><MD_Metadata xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:srv="http://www.isotc211.org/2005/srv" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:xalan="http://xml.apache.org/xalan" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gml="http://www.opengis.net/gml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.isotc211.org/2005/gmd">
+<characterSet>
+<MD_CharacterSetCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_CharacterSetCode" codeListValue="utf8" codeSpace="ISOTC211/19115">utf8</MD_CharacterSetCode>
+</characterSet>
+<hierarchyLevel>
+<MD_ScopeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ScopeCode" codeListValue="dataset" codeSpace="ISOTC211/19115">dataset</MD_ScopeCode>
+</hierarchyLevel>
+<hierarchyLevelName>
+<gco:CharacterString>dataset</gco:CharacterString>
+</hierarchyLevelName>
+<contact gco:nilReason="missing"/>
+<dateStamp gco:nilReason="missing"/>
+<metadataStandardName>
+<gco:CharacterString>ISO 19139 Geographic Information - Metadata - Implementation Specification</gco:CharacterString>
+</metadataStandardName>
+<metadataStandardVersion>
+<gco:CharacterString>2007</gco:CharacterString>
+</metadataStandardVersion>
+<identificationInfo>
+<MD_DataIdentification>
+<citation gco:nilReason="missing"/>
+<abstract>
+<gco:CharacterString>There are 159 Character Areas, each of which is distinctive with a unique 'sense of place'. These broad divisions of landscape form the basic units of cohesive countryside character, on which strategies for both ecological and landscape issues can be based. The Character Area framework is used to describe and shape objectives for the countryside, its planning and management. Full metadata can be viewed on data.gov.uk.</gco:CharacterString>
+</abstract>
+<purpose>
+<gco:CharacterString>National Character Areas (England). There are 159 Character Areas, each of which is distinctive with a unique 'sense of place'. </gco:CharacterString>
+</purpose>
+<credit>
+<gco:CharacterString>© Natural England copyright. Contains Ordnance Survey data © Crown copyright and database right [year].</gco:CharacterString>
+</credit>
+<descriptiveKeywords>
+<MD_Keywords>
+<keyword>
+<gco:CharacterString>Designations</gco:CharacterString>
+</keyword>
+<keyword>
+<gco:CharacterString>Natural England</gco:CharacterString>
+</keyword>
+<keyword>
+<gco:CharacterString>ecology</gco:CharacterString>
+</keyword>
+<keyword>
+<gco:CharacterString>landscape</gco:CharacterString>
+</keyword>
+</MD_Keywords>
+</descriptiveKeywords>
+<descriptiveKeywords>
+<MD_Keywords>
+<keyword>
+<gco:CharacterString>Designations</gco:CharacterString>
+</keyword>
+<keyword>
+<gco:CharacterString>Natural England</gco:CharacterString>
+</keyword>
+<keyword>
+<gco:CharacterString>ecology</gco:CharacterString>
+</keyword>
+<keyword>
+<gco:CharacterString>landscape</gco:CharacterString>
+</keyword>
+</MD_Keywords>
+</descriptiveKeywords>
+<descriptiveKeywords>
+<MD_Keywords>
+<keyword>
+<gco:CharacterString>Designations</gco:CharacterString>
+</keyword>
+<keyword>
+<gco:CharacterString>Natural England</gco:CharacterString>
+</keyword>
+<keyword>
+<gco:CharacterString>ecology</gco:CharacterString>
+</keyword>
+<keyword>
+<gco:CharacterString>landscape</gco:CharacterString>
+</keyword>
+</MD_Keywords>
+</descriptiveKeywords>
+<descriptiveKeywords>
+<MD_Keywords>
+<keyword>
+<gco:CharacterString>Designations</gco:CharacterString>
+</keyword>
+<keyword>
+<gco:CharacterString>Natural England</gco:CharacterString>
+</keyword>
+<keyword>
+<gco:CharacterString>ecology</gco:CharacterString>
+</keyword>
+<keyword>
+<gco:CharacterString>landscape</gco:CharacterString>
+</keyword>
+</MD_Keywords>
+</descriptiveKeywords>
+<resourceConstraints>
+<MD_Constraints>
+<useLimitation>
+<gco:CharacterString>There are no public access constraints to this data. Use of this data is subject to the Open Government Licence - http://www.nationalarchives.gov.uk/doc/open-government-licence/version</gco:CharacterString>
+</useLimitation>
+</MD_Constraints>
+</resourceConstraints>
+<language gco:nilReason="missing"/>
+<characterSet>
+<MD_CharacterSetCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_CharacterSetCode" codeListValue="utf8" codeSpace="ISOTC211/19115">utf8</MD_CharacterSetCode>
+</characterSet>
+</MD_DataIdentification>
+</identificationInfo>
+</MD_Metadata>
