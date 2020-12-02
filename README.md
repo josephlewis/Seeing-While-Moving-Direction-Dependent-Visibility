@@ -9,7 +9,7 @@ Getting Started
 1. Open project using Seeing-While-Moving-Direction-Dependent-Visibility.Rproj to ensure relative paths work.
 2. Run the main R script in the R folder to reproduce the analyses. 
     + Note: The Least Cost Paths and Viewsheds results are available in the Outputs folder. 
-    + The Direction Dependent Visibility function is in the Direction Dependent Visibility R script should you wish to use the function outside of this project. Note that you will need to set up GRASS in order for the function to work (see lines 64 to 73 of Direction Dependent Visibility calculation R script).
+    + The Direction Dependent Visibility function is in the Direction Dependent Visibility R script should you wish to use the function outside of this project. Note that you will need to set up GRASS in order for the function to work (see lines 64 to 73 of main R script).
     
 How Direction-Dependent Visibity is calculated
 ---------------
@@ -43,7 +43,7 @@ File Structure
   │       ├── National_Character_Areas_England.shx
   │       ├── National_Character_Areas_England.xml
   │   └── OS50
-  │       ├── terrain-50-dtm_3789282
+  │       ├── merged_DEM.tif
   │       ├── citations_orders_1627556.txt
   │       ├── contents_order_1627556.txt
   │   └── Waterbodies
